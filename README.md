@@ -9,27 +9,55 @@ This project demonstrates a simple **Serverless architecture** using:
 
 ---
 
-## 🖼️ Architecture Diagram
-
-![Architecture Diagram](assets/diagram.png)
-
----
-
 ## 🧠 Project Flow
 
 1. User uploads an image via the static website  
-   ![Upload Form](assets/upload-form.png)
-
 2. Image is sent to API Gateway → invokes Lambda function  
-   ![Network Request](assets/request.png)
-
-3. Lambda function:
-   - uploads image to an S3 bucket
-   - generates the image URL
+3. Lambda function:  
+   - uploads image to an S3 bucket  
+   - generates the image URL  
    - sends the URL via email using Amazon SES  
-   ![SES Email](assets/email.png)
-
 4. Image is accessible via public link
+
+---
+
+## 🖼️ Project Diagram
+
+![Diagram](assets/diagram.png)
+
+---
+
+## 🌐 Static Website
+
+![Static Site](assets/static-site.png)
+
+---
+
+## 📤 Image Upload Flow
+
+### Before Upload
+![S3 Before](assets/s3-before.png)
+
+### After Upload
+![S3 After](assets/s3-after.png)
+
+---
+
+## ⚙️ Lambda Function
+
+![Lambda](assets/lambda.png)
+
+---
+
+## 📧 Email Sent
+
+![Email](assets/email.png)
+
+---
+
+## 🔗 Image Link in Email
+
+![Image Link](assets/image-link.png)
 
 ---
 
