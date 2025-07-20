@@ -23,7 +23,7 @@ This project demonstrates a simple **Serverless architecture** using:
 
 ## 🖼️ Project Diagram
 
-![Diagram](assets/diagram.png)
+![Diagram](assets/diagram.svg)
 
 ---
 
